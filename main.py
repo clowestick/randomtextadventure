@@ -10,6 +10,7 @@ step3=0
 step4=0
 step5=0
 step6=0
+step7=0
 hello = input ("what is your characters name: ") 
 print ("hello " + hello + " you are here to save the world as it is overun with monsters")
 answer=input("A.go to sleep B.start fighting: ")
@@ -31,4 +32,8 @@ if step5=="A":print("you had good meal but when you left you got attacked they d
 if step5=="B":step6=input("you don't feel full and regret your choice until you get attacked do you A.fight them or B.give up youre money: ")
 next
 if step6=="B":print("you give up your 5 dollars and they stab you...X-X")
+if step6=="A":step7=input("you won luckily you had that armor do you A:fight the final boss or B.take thier stuff")
+next
+if step7=="A":print("you won ig idk :p yeah im lazy")
+if step7=="B":print("the number of thieves stay the same the police saw and killed you for murder")
 
